@@ -1,0 +1,20 @@
+# firmware
+firmware/.pio/
+# app (Flutter keeps its own app/.gitignore)
+# analysis
+analysis/.venv/
+analysis/out/
+analysis/data/
+__pycache__/
+.pytest_cache/
+# mascot
+mascot/web/node_modules/
+# study data: never commit participant data
+*.private.csv
+# skeleton web build deps (symlink)
+skeleton/web/node_modules
+# OS / editor
+.DS_Store
+.idea/
+app/android/build/
+app/android/.kotlin/

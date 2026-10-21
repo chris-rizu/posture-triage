@@ -1,0 +1,8 @@
+numpy>=1.26
+pandas>=2.1
+scipy>=1.11
+matplotlib>=3.8
+pytest>=8
+# optional cross-checks used by the tests when present
+scikit-learn>=1.4
+pingouin>=0.5.4
