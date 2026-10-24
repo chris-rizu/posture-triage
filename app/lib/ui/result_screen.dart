@@ -120,7 +120,7 @@ class _ResultScreenState extends State<ResultScreen> {
           ),
           const CardHeader('Suggestions'),
           SizedBox(
-            height: 128,
+            height: 150,
             child: ListView.separated(
               scrollDirection: Axis.horizontal,
               itemCount: recs.length,
